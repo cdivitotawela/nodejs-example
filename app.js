@@ -5,7 +5,7 @@ const host = '0.0.0.0';
 const server = http.createServer((req,res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type','text/plain');
-  res.end('Nodejs Example');
+  res.end('Nodejs Example v1');
 });
 
 server.listen(port,host);
